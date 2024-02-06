@@ -100,6 +100,11 @@ _G.packer_plugins = {
     path = "/home/hubertmalkowski/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
     url = "https://github.com/projekt0n/github-nvim-theme"
   },
+  ["heirline.nvim"] = {
+    loaded = true,
+    path = "/home/hubertmalkowski/.local/share/nvim/site/pack/packer/start/heirline.nvim",
+    url = "https://github.com/rebelot/heirline.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/hubertmalkowski/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -139,6 +144,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/hubertmalkowski/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["project.nvim"] = {
+    loaded = true,
+    path = "/home/hubertmalkowski/.local/share/nvim/site/pack/packer/start/project.nvim",
+    url = "https://github.com/ahmedkhalf/project.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

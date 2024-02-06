@@ -41,10 +41,12 @@ return require('packer').startup(function(use)
     }
 
     use 'm4xshen/autoclose.nvim'
-    use 'rmagatti/auto-session'
 
-
+    use "ahmedkhalf/project.nvim"
     use 'numToStr/Comment.nvim'
+    use "rebelot/heirline.nvim"
+
+
 
     use("tpope/vim-fugitive")
 end)
