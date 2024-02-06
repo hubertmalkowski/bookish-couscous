@@ -17,7 +17,7 @@ return require('packer').startup(function(use)
             require('github-theme').setup({
                 -- ...
             })
-            vim.cmd('colorscheme github_dark_default')
+            -- vim.cmd('colorscheme github_dark_default')
             vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
             vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
         end
@@ -44,7 +44,19 @@ return require('packer').startup(function(use)
 
     use "ahmedkhalf/project.nvim"
     use 'numToStr/Comment.nvim'
-    use "rebelot/heirline.nvim"
+    use 'windwp/nvim-ts-autotag'
+
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
+
+    use {
+        "ThePrimeagen/harpoon",
+        branch = "harpoon2",
+        requires = { { "nvim-lua/plenary.nvim" } }
+    }
+    use { 'uZer/pywal16.nvim', as = 'pywal16' }
 
 
 

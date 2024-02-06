@@ -100,15 +100,20 @@ _G.packer_plugins = {
     path = "/home/hubertmalkowski/.local/share/nvim/site/pack/packer/start/github-nvim-theme",
     url = "https://github.com/projekt0n/github-nvim-theme"
   },
-  ["heirline.nvim"] = {
+  harpoon = {
     loaded = true,
-    path = "/home/hubertmalkowski/.local/share/nvim/site/pack/packer/start/heirline.nvim",
-    url = "https://github.com/rebelot/heirline.nvim"
+    path = "/home/hubertmalkowski/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/hubertmalkowski/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/hubertmalkowski/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
@@ -135,6 +140,17 @@ _G.packer_plugins = {
     path = "/home/hubertmalkowski/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-ts-autotag"] = {
+    loaded = true,
+    path = "/home/hubertmalkowski/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
+    url = "https://github.com/windwp/nvim-ts-autotag"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = false,
+    needs_bufread = false,
+    path = "/home/hubertmalkowski/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/hubertmalkowski/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -149,6 +165,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/hubertmalkowski/.local/share/nvim/site/pack/packer/start/project.nvim",
     url = "https://github.com/ahmedkhalf/project.nvim"
+  },
+  pywal16 = {
+    loaded = true,
+    path = "/home/hubertmalkowski/.local/share/nvim/site/pack/packer/start/pywal16",
+    url = "https://github.com/uZer/pywal16.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
