@@ -17,7 +17,7 @@ return require('packer').startup(function(use)
             require('github-theme').setup({
                 -- ...
             })
-            -- vim.cmd('colorscheme github_dark_default')
+            vim.cmd('colorscheme github_dark_default')
             vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
             vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
         end
@@ -56,9 +56,6 @@ return require('packer').startup(function(use)
         branch = "harpoon2",
         requires = { { "nvim-lua/plenary.nvim" } }
     }
-    use { 'uZer/pywal16.nvim', as = 'pywal16' }
-
-
 
     use("tpope/vim-fugitive")
 end)

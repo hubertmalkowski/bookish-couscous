@@ -49,3 +49,25 @@ require('mason-lspconfig').setup({
     lsp_zero.default_setup,
   },
 })
+
+
+lspconfig = require('lspconfig')
+
+vim.filetype.add({ extension = { templ = "templ" } })
+
+-- lspconfig.html.setup({
+--     on_attach = on_attach,
+--     capabilities = capabilities,
+--     filetypes = { "html", "templ" },
+-- })
+--
+--
+-- lspconfig.htmx.setup({
+--     on_attach = on_attach,
+--     capabilities = capabilities,
+--     filetypes = { "html", "templ" },
+-- })
+--
+--
+
+
